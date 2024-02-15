@@ -51,7 +51,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
 # Platform
-TARGET_BOARD_PLATFORM := mt6833
+TARGET_BOARD_PLATFORM := mt6853
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 product.version=PD2068_A_1.10.12 fingerprint.abbr=11/RP1A.200720.012 buildvariant=user
