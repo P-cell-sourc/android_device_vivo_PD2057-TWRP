@@ -16,11 +16,11 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/vivo/PD2068
+DEVICE_PATH := device/vivo/PD2057
 
 # Build Flags
-TW_MAINTAINER := qiushui105
-TW_DEVICE_VERSION := vivo Y31s Standard Edition
+TW_MAINTAINER := Android
+TW_DEVICE_VERSION := vivo Y52s Standard Edition
 RECOVERY_VARIANT := TWRP_11
 ALLOW_MISSING_DEPENDENCIES := true
 LC_ALL := "C"
@@ -87,7 +87,7 @@ BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_SECOND_OFFSET)
         $(DEVICE_PATH)/prebuilt/dtb.img:dtb.img
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := PD2068
+TARGET_OTA_ASSERT_DEVICE := PD2057
 
 # File systems
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
